@@ -93,7 +93,7 @@ services:
     env_file:
       # walle.env需和docker-compose在同级目录
       - ./walle.env
-    command: bash -c "cd /opt/walle-web/ && /bin/bash admin.sh migration &&  python waller.py"
+    command: bash -c "cd /opt/walle_home/ && /bin/bash admin.sh migration &&  python waller.py"
     expose:
       - "5000"
     volumes:
