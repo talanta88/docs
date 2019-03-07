@@ -18,7 +18,11 @@ sudo yum install docker-ce -y
 sudo systemctl enable docker
 sudo systemctl start docker
 ```
-
+在安装过程中，也许会遇到Requires: container-selinux >= 2.9 的异常；那么可以打开[Centos下载包](http://mirror.centos.org/centos/7/extras/x86_64/Packages/)中的最新container-selinux包的地址；
+然后运行：
+```
+ sudo yum install -y http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.68-1.el7.noarch.rpm
+```
 
 - [Ubuntu系统](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 ```bash
