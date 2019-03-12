@@ -18,7 +18,12 @@ sudo yum install docker-ce -y
 sudo systemctl enable docker
 sudo systemctl start docker
 ```
-
+在安装过程中，也许会遇到Requires: container-selinux >= 2.9 的异常；
+可以打开[Centos下载包](http://mirror.centos.org/centos/7/extras/x86_64/Packages/)中的最新container-selinux包的地址,
+然后运行：
+```
+ sudo yum install -y http://mirror.centos.org/centos/7/extras/x86_64/Packages/container-selinux-2.68-1.el7.noarch.rpm
+```
 
 - [Ubuntu系统](https://docs.docker.com/install/linux/docker-ce/ubuntu/)
 ```bash
@@ -49,6 +54,11 @@ sudo apt-get install docker-ce
 install [docker-compose](https://docs.docker.com/compose/overview/)
 ```bash
 pip install docker-compose -i https://mirrors.aliyun.com/pypi/simple/
+```
+如果pip不存在，可以尝试
+```
+sudo yum install python-pip 
+sudo pip install --upgrade pip
 ```
 
 ## NEW environment file
@@ -158,7 +168,7 @@ docker-compose up -d
 # 查看日志,效果类似 tail -f waller.log
 docker-compose logs -f
 # 停止服务,会停止服务的运行，但是不会删除服务所所依附的网络，以及存储等
-docker-compsoe stop
+docker-compose stop
 # 删除服务，并删除服务产生的网络，存储等，并且会关闭服务的守护
 docker-compose down
 ```
