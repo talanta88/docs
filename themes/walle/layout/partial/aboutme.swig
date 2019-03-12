@@ -4,6 +4,8 @@
     <img src="{{ url_for('images/user/weixin.wushuiyong.jpg') }}" />
     <img src="{{ url_for('images/user/weixin.chenfengjuan.jpg') }}" />
     <img src="{{ url_for('images/user/weixin.yexinhao.jpg') }}" />
+</div>
+<div class="aboutme-img">
     <img src="{{ url_for('images/user/weixin.zouhongxue.jpg') }}" />
 </div>
 <h1 class="aboutme-title">关于我及项目</h1>
