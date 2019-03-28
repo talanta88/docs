@@ -5,6 +5,9 @@
     <img src="{{ url_for('images/user/weixin.chenfengjuan.jpg') }}" />
     <img src="{{ url_for('images/user/weixin.yexinhao.jpg') }}" />
 </div>
+<div class="aboutme-img">
+    <img src="{{ url_for('images/user/weixin.zouhongxue.jpg') }}" />
+</div>
 <h1 class="aboutme-title">关于我及项目</h1>
 <div class="aboutme-project">
     <p>早年公司没有好的部署平台，业余写了walle瓦力，从而也认识了一些有意思的朋友。
