@@ -34,4 +34,4 @@ ImportError: libmysqlclient.so.20: cannot open shared object file: No such file 
 ## 其它问题
 - [提Issue](https://github.com/meolu/walle-web/issues/new/choose)
 - 加微信群，互帮互助，拒绝伸手党，99%的问题在于粗心没按文档，或文档已经提供解决方案。更复杂的问题，直接提issue描述。
-![](/docs/2/zh-cn/static/group-wechat.png)
+![](/docs/2/zh-cn/static/group-wechat1.png)
