@@ -3,6 +3,18 @@ desc:
 items: [
   [
   {
+    src: images/user/qiongyou.png,
+    title:穷游,
+    style: "width: 170px",
+    desc: 穷游网为旅行者提供原创实用的出境游旅行指南和旅游攻略、旅行社区和问答交流平台，并提供签证、保险、机票、酒店预订、租车等服务。
+  },
+  {
+    src: images/user/guangfa.png,
+    title:广发证券,
+    style: "width: 170px",
+    desc: 专注于中国优质企业及富裕人群，拥有领先创新能力的资本市场综合服务商。
+  },
+  {
     src: images/user/renrenche.png,
     title: 人人车,
     style: "width: 170px;",
