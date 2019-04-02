@@ -1,8 +1,7 @@
 title: 他们都在使用
 desc:
 items: [
-  [
-  {
+  [{
     src: images/user/qiongyou.png,
     title:穷游,
     style: "width: 170px",
@@ -13,8 +12,7 @@ items: [
     title:广发证券,
     style: "width: 170px",
     desc: 专注于中国优质企业及富裕人群，拥有领先创新能力的资本市场综合服务商。
-  },
-  {
+  },{
     src: images/user/renrenche.png,
     title: 人人车,
     style: "width: 170px;",
@@ -24,8 +22,8 @@ items: [
     src: images/user/roobo.png,
     title: roobo,
     desc: 为设备提供AI交互能力整体解决方案
-  },
-  {
+  }],
+  [{
     src: images/user/wowokuaiyun.png,
     title: 喔喔快运,
     desc: 最后一公里，交给喔喔快运，连接同城配送、顺风快递、整车物流等多个个板块在内的综合性新能源智慧物流平台。
@@ -35,18 +33,6 @@ items: [
     title: 嘉文教育,
     style: "width: 110px; max-height: none;",
     desc: 一所集学习能力培养、英语及其他特色课程为一体的培训机构，师资力量雄厚，教学环境优雅，个性化教学、注重培养学生自我解决问题的能力，让孩子轻松学习，赢在未来。
-  },
-  ],
-  [{
-    src: images/user/qingsongzhuishu.png,
-    title: 轻松追书,
-    style: "width: 170px;",
-    desc: 轻松追书专注于玄幻小说搜索，轻松追书，提供最全的小说保持最快的更新，方便大家轻松愉快地在线阅读小说！
-  },
-  {
-    src: images/user/longtuhudong.png,
-    title: 龙途互动,
-    desc: 龙途互动 (Dragon Trail Interactive) 是一家服务于旅游行业的数字营销公司，公司利用互联网，移动互联网和社交媒体为客户策划和执行以结果为导向的数字营销活动，帮助客户提高品牌在中国市场的知名度，并进行产品和服务的推广。
   },
   {
     src: images/user/che300.png,
@@ -58,5 +44,16 @@ items: [
     title: 时趣,
     style: "width: 170px;",
     desc: 时趣互动（北京）科技有限公司（简称时趣）成立于2011年，是中国整合数字营销解决方案公司，为品牌提供技术驱动的整合营销解决方案。时趣业务包括品牌、策略、创意、公关，到ePR、线下活动、数字互动、媒介采购，以及强调技术、数据驱动的SCRM、电商运营。
+  }],
+  [{
+    src: images/user/qingsongzhuishu.png,
+    title: 轻松追书,
+    style: "width: 170px;",
+    desc: 轻松追书专注于玄幻小说搜索，轻松追书，提供最全的小说保持最快的更新，方便大家轻松愉快地在线阅读小说！
+  },
+  {
+    src: images/user/longtuhudong.png,
+    title: 龙途互动,
+    desc: 龙途互动 (Dragon Trail Interactive) 是一家服务于旅游行业的数字营销公司，公司利用互联网，移动互联网和社交媒体为客户策划和执行以结果为导向的数字营销活动，帮助客户提高品牌在中国市场的知名度，并进行产品和服务的推广。
   }]
 ]
