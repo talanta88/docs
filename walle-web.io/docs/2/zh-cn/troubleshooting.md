@@ -47,3 +47,18 @@ socket.error: [Errno 49] Can't assign requested address: ('admin.walle-web.io', 
 解决方法：nginx、hosts配置、setting_prod.py的域名配置一致，且ping通。
 
 99.9%的人都会粗心，你不是第一个，也不会是最后一个。
+
+Centos7 安装了python2.7、python3.6，导致walle脚本init时，无法启动gunicorn
+--------------------
+原因：gunicorn 需要python 3.4+，而当前系统运行的版本是python2.7
+解决办法：
+  1、/usr/bin/python 升级到3.4+,通过mv /usr/bin/python /usr/bin/python.old
+  2、ln -s /usr/bin/python3.6 /usr/bin/python (升级当前环境的python至3.6)
+  3、rm -rf walle-web (把walle文件目录删除)
+  4、git clone https://github.com/meolu/walle-web.git (重新远端拉取)
+  5、sh admin.sh init
+  6、yum install -y python3-devel (若出现mysqlclient等缺少依赖时，请执行)
+  
+  
+  
+  
